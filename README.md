@@ -1,4 +1,4 @@
-# 💖 Samidha - The Student Learning Hub
+# 👣 Samidha - The Student Learning Hub
 > **"Your Spark Enlightens Their Future"**
 
 Samidha is an educational society based at **GB PANT OKHLA I CAMPUS DSEU**, where college students mentor and teach school students from **Classes 3rd to 12th**. Founded in 2013, we aim to bridge the educational gap through free mentorship, curiosity-driven learning, and community support.
@@ -58,7 +58,7 @@ We follow a strict **Pull Request (PR)** workflow to ensure code quality.
 ## 📞 Connect with Us
 - **Instagram:** [@samidha_dseu](https://instagram.com/samidha_dseu)
 - **LinkedIn:** [Samidha DSEU](https://linkedin.com)
-- **Website:** [https://samidha.netlify.app](https://samidha.netlify.app)
+- **Website:** [https://samidha-dseu.netlify.app](https://samidha-dseu.netlify.app/)
 
 ---
 *Developed with ❤️ by the students of DSEU.*
