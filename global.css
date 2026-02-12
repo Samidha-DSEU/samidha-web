@@ -1,0 +1,98 @@
+/* ✅ Base Variables & Reset */
+:root {
+    --primary-blue: #3b82f6;
+    --dark-bg: #0f172a;
+    --light-gray: #f8fafc;
+    --accent-pink: #ff4081;
+    --phase-yellow: #fff9c4;
+    --phase-blue: #e1f5fe;
+    --phase-purple: #f3e5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    padding-top: 70px; 
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: var(--light-gray);
+    color: #333;
+}
+
+/* ✅ Navbar - Glassmorphism Effect */
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 2000; /* High z-index to stay on top */
+    background: rgba(15, 23, 42, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-logo {
+    height: 45px;       /* Adjust this to change navbar height */
+    width: 45px;        /* Keep width and height same for a circle */
+    object-fit: cover;
+    border-radius: 50%; /* Makes the logo circular */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: subtle border */
+}
+
+/* Adjust brand text vertical alignment */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--primary-blue) !important;
+}
+
+/* ✅ Reusable Buttons */
+.btn-main {
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-main:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ✅ Footer */
+footer {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--accent-pink);
+}

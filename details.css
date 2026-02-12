@@ -1,0 +1,117 @@
+/* ✅ Journey Details Styling */
+
+.details-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.hero-logo {
+    height: 180px;      /* Adjust size as needed */
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+/* Mentor Section */
+.contributor-section {
+    background: white;
+    border: 1px solid #eee;
+}
+
+.mentor-img-container {
+    padding: 20px 0 20px 50px; /* Added 30px padding to the left */
+}
+
+.mentor-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.mentor-quote {
+    font-style: italic;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Key Points Grid */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    margin: 0 auto 1.2rem auto
+}
+
+.key-point-card {
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.key-point-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* ✅ MOBILE RESPONSIVE RULES */
+@media (max-width: 768px) {
+    
+    /* 1. Shrink the Hero Logo (The big feet logo) */
+    .hero-logo {
+        height: 120px !important; /* Reduced from original size */
+        width: 120px !important;
+        margin-top: 20px;
+    }
+
+    /* 2. Shrink Hero Titles */
+    .details-hero h1 {
+        font-size: 1.8rem !important; /* Smaller text for mobile */
+    }
+    .details-hero p.lead {
+        font-size: 1rem !important;
+    }
+
+    /* 3. Mentor Image Adjustment */
+    .mentor-img-container {/* Remove the large 30px left padding on mobile */
+        text-align: center;
+        margin-left: 80px;
+    }
+    .mentor-img {
+        max-height: 250px; /* Prevent the photo from taking too much vertical space */
+        width: auto;
+    }
+
+    /* 4. Shrink "Learn More About Our Journey" Button */
+    .btn-lg {
+        padding: 10px 20px !important;
+        font-size: 0.9rem !important;
+        width: 80%; /* Don't let it touch the edges */
+    }
+
+    /* 5. Center Icon Boxes & Text in Cards */
+    .key-point-card {
+        padding: 20px !important;
+    }
+    .key-point-card h4 {
+        font-size: 1.2rem;
+    }
+    .key-point-card p {
+        font-size: 0.85rem;
+    }
+
+    /* 6. Social Buttons (Stay Connected) */
+    .social-card {
+        width: 120px !important; /* Smaller icons for social row */
+        padding: 10px !important;
+    }
+}
