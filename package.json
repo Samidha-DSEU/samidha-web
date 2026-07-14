@@ -1,0 +1,10 @@
+{
+  "name": "samidha-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Samidha web app. Includes dev-only tools that organize generated study material.",
+  "type": "module",
+  "scripts": {
+    "arrange:notes": "node src/notes-arranged/arrange.js"
+  }
+}
