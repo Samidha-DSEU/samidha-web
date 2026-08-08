@@ -1,0 +1,14 @@
+{
+    "name": "samidha-web",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Samidha web app.",
+    "type": "module",
+    "scripts": {
+        "scrape:kvs": "node src/scrapper/kvs/scraper.js",
+        "scrape:ncert": "node src/scrapper/ncert/scraper.js"
+    },
+    "devDependencies": {
+        "cheerio": "^1.0.0"
+    }
+}
